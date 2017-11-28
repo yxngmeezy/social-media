@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  background-color: #ecf3f3;
+}
+
+#splash {
+  background: url('dog-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  padding: 3em;
+  /** Add challenge code after here. **/
+}
+#nav-bar {
+    height:60px;
+    background-color: darkorange;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:2%;
+    position:fixed;
+    width:100%;
+}
+.cool-button{
+    color:aliceblue;
+    text-decoration:none;
+    padding-left:1em;
+    padding-right:1em;
+}
+.cool-button:hover{
+    text-decoration:underline;
+}
+#titles h1 {
+  color: white;
+  font-weight: 300;
+  margin: 0;
+}
+
+#titles h2 {
+  color: white;
+  font-weight: 300;
+  margin: 0;
+}
+
+#titles h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+/* Sign Up Form */
+#sign-up {
+  min-height: 350px;
+  width: 450px;
+  margin-right: 2em;
+  border: 1px solid #FFF;
+  padding: 1em 2em;
+}
+
+#sign-up > h3 {
+  color: #FFF;
+}
+
+#sign-up form input {
+  width: 100%;
+  height: 50px;
+  margin: 0.5em 0;
+  font-size: 1em;
+  padding: 0 0.5em;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Position relative tutorial. */
+/* Section 2: App info. */
+
+#app-info {
+  height: 500px;
+  padding: 4em;
+  border-bottom: 1px solid #666;
+}
+
+#app-info > h2 {
+  text-align: center;
+}
+
+#app-info > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+#relative-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  /** Add challenge code after here. **/
+
+}
+
+/* Position absolute tutorial. */
+/* Section 3: Message Example */
+
+#messages {
+  height: 600px;
+}
+
+#messages > h2 {
+  text-align: center;
+}
+
+#message-box {
+  width: 600px;
+  height: 400px;
+  background-color: #FFF;
+  margin: 3em auto;
+  /** Add challenge code after here. **/
+}
+
+#message-box > h2 {
+  font-size: 1.5em;
+  background: #CE665A;
+  padding: 0.5em 0.5em;
+  text-align: center;
+}
+
+#exit-button {
+  color: red;
+  width: 16px;
+  height: 20px;
+  text-align: center;
+  background: pink;
+  /** Challenge code after here. **/
+
+}
+
+/* Position Fixed Tutorial */
+/* Message bubble. */
+#message-bubble {
+  height: 50px;
+  width: 200px;
+  padding: 0.5em 1em;
+  text-align: center;
+  background-color: #BBB;
+  color: #FFF;
+  z-index: 100;
+  /** Challenge code after here. **/
+}
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
